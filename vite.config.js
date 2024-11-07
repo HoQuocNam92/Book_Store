@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Store_Books/', // Chỉ cần tên của repository
-})
+  base: '/Book_Store/', // Đảm bảo chỉ sử dụng tên repository, không phải URL đầy đủ
+});
