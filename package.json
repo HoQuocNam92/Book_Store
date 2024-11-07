@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/HoQuocNam92/Book_Store",
+  "homepage": "https://HoQuocNam92.github.io/Book_Store",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
