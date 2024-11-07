@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://github.com/HoQuocNam92/Store_Books",
+  base: '/Store_Books/', // Chỉ cần tên của repository
 })
